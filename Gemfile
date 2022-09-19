@@ -25,6 +25,10 @@ gem 'jbuilder', '~> 2.5'
 gem 'semantic-ui-sass'
 # gem for jquery dependencies
 gem 'jquery-rails'
+# bcrypt gem for users password
+gem 'bcrypt', '~> 3.1.7'
+# Hirb gem needed to get more readable data from the database, use "Hirb.enable" in the rails console
+gem 'hirb'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
 # Use ActiveModel has_secure_password
